@@ -1,0 +1,58 @@
+Git(Developed by the Linx users)
+Git Bash(command line)
+Git(Local (on ur computer))
+GitHub(Remote(on the web))
+
+-------------------------------------------------------------------
+git config --global user.name "Enter name"
+git config --global user.email "Enter email"
+git config --list(u can see ur username and email)
+exit(close)
+
+Note:-
+1-Anything written after dash are called flags
+
+------------------------------------------------------------------
+Commands:-
+pwd
+clear
+ls(list of files)
+ls -a(list of files including hidden)
+ls -al(list of files with details)
+
+cd(directly to home directory)
+cd ..(One level up in ur current directory)
+
+mkdir name_of_folder(making directory)
+touch file_name(creats an empty file)
+cp file1 Documents(copy)
+cp -r Documents MoreDocumnents(recurvisly copy entire files of Documents to MoreDocuments)
+
+---------------------------------------------------------------------
+Note:Be carefull,there is no undo
+rm file1(remove)
+rm -r MoreDocuments(recurvisly remove all the contents)
+
+mv file_Name Documents(move file_Name to Documents)
+mv oldfileName NewFileName(renaming)
+
+echo Hello World(prints what ever the parameters are passing)
+
+date(date will print)
+
+
+=====================================================================================
+mkdir -/test-repo
+cd -/test-repo
+git init(initialize a local Git Repo)
+git remote add origin https://github.com/ur suer name/test-rep.git(local to github)
+git clone https://github.com/ur suer name/respo.git(clone to local current directory)
+
+git add .(add all new files)
+git add -u(updates tracking for files that changed name or delete )
+git add -A(does both of the Previous)
+git commuit -m "message"
+git push(update on the remote(github))
+git checkout -b branchname(branch is the another version of the same directory)
+git branch(to see wt branch ur)
+git checkout master(switch to master branch)
